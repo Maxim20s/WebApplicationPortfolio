@@ -1,0 +1,21 @@
+﻿@RenderBody()
+<!DOCTYPE HTML>
+<html>
+	<head>
+		@await Html.PartialAsync("MetaTegsPartial")
+		@await Html.PartialAsync("CssPartial")		 
+	</head>
+	<body>
+		<div id="page-wrapper">
+			@await Html.PartialAsync("HeaderPartial")
+			@await Html.PartialAsync("BannerPartial")
+			@await Html.PartialAsync("SectionOnePartial")
+			@await Html.PartialAsync("SectionTwoPartial")
+			@await Html.PartialAsync("SectionThreePartial")
+			@await Html.PartialAsync("SectionFourPartial")
+			@await Html.PartialAsync("SectionFivePartial")
+			@await Html.PartialAsync("FooterPartial")
+		</div>
+		@await Html.PartialAsync("ScriptsPartial")
+	</body>
+</html>

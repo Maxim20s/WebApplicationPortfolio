@@ -1,0 +1,15 @@
+[
+  {
+    "outputFileName": "wwwroot\JS\scripts.js",
+    "inputFiles": [
+      "wwwroot\JS\jquery.dropotron.min.js",
+      "wwwroot\JS\jquery.scrolly.min.js",
+      "wwwroot\JS\jquery.min.js",
+      "wwwroot\JS\jquery.scrollex.min.js",
+      "wwwroot\JS\breakpoints.min.js",
+      "wwwroot\JS\browser.min.js",
+      "wwwroot\JS\main.js",
+      "wwwroot\JS\util.js"
+    ]
+  }
+]
